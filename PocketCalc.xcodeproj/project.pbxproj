@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		280933E11D6F6B37004AEE16 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 280933E01D6F6B37004AEE16 /* main.m */; };
+		280933E41D6F6B37004AEE16 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 280933E31D6F6B37004AEE16 /* AppDelegate.m */; };
+		280933E71D6F6B37004AEE16 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 280933E61D6F6B37004AEE16 /* ViewController.m */; };
+		280933EA1D6F6B37004AEE16 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 280933E81D6F6B37004AEE16 /* Main.storyboard */; };
+		280933EC1D6F6B37004AEE16 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 280933EB1D6F6B37004AEE16 /* Assets.xcassets */; };
+		280933EF1D6F6B37004AEE16 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 280933ED1D6F6B37004AEE16 /* LaunchScreen.storyboard */; };
+		280933FA1D6F6B38004AEE16 /* PocketCalcTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 280933F91D6F6B38004AEE16 /* PocketCalcTests.m */; };
+		280934051D6F6B38004AEE16 /* PocketCalcUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 280934041D6F6B38004AEE16 /* PocketCalcUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		280933F61D6F6B38004AEE16 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 280933D41D6F6B37004AEE16 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 280933DB1D6F6B37004AEE16;
+			remoteInfo = PocketCalc;
+		};
+		280934011D6F6B38004AEE16 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 280933D41D6F6B37004AEE16 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 280933DB1D6F6B37004AEE16;
+			remoteInfo = PocketCalc;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		280933DC1D6F6B37004AEE16 /* PocketCalc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PocketCalc.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		280933E01D6F6B37004AEE16 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		280933E21D6F6B37004AEE16 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		280933E31D6F6B37004AEE16 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		280933E51D6F6B37004AEE16 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		280933E61D6F6B37004AEE16 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		280933E91D6F6B37004AEE16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		280933EB1D6F6B37004AEE16 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		280933EE1D6F6B37004AEE16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		280933F01D6F6B37004AEE16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		280933F51D6F6B38004AEE16 /* PocketCalcTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PocketCalcTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		280933F91D6F6B38004AEE16 /* PocketCalcTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PocketCalcTests.m; sourceTree = "<group>"; };
+		280933FB1D6F6B38004AEE16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		280934001D6F6B38004AEE16 /* PocketCalcUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PocketCalcUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		280934041D6F6B38004AEE16 /* PocketCalcUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PocketCalcUITests.m; sourceTree = "<group>"; };
+		280934061D6F6B38004AEE16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		280933D91D6F6B37004AEE16 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		280933F21D6F6B38004AEE16 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		280933FD1D6F6B38004AEE16 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		280933D31D6F6B37004AEE16 = {
+			isa = PBXGroup;
+			children = (
+				280933DE1D6F6B37004AEE16 /* PocketCalc */,
+				280933F81D6F6B38004AEE16 /* PocketCalcTests */,
+				280934031D6F6B38004AEE16 /* PocketCalcUITests */,
+				280933DD1D6F6B37004AEE16 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		280933DD1D6F6B37004AEE16 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				280933DC1D6F6B37004AEE16 /* PocketCalc.app */,
+				280933F51D6F6B38004AEE16 /* PocketCalcTests.xctest */,
+				280934001D6F6B38004AEE16 /* PocketCalcUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		280933DE1D6F6B37004AEE16 /* PocketCalc */ = {
+			isa = PBXGroup;
+			children = (
+				280933E21D6F6B37004AEE16 /* AppDelegate.h */,
+				280933E31D6F6B37004AEE16 /* AppDelegate.m */,
+				280933E51D6F6B37004AEE16 /* ViewController.h */,
+				280933E61D6F6B37004AEE16 /* ViewController.m */,
+				280933E81D6F6B37004AEE16 /* Main.storyboard */,
+				280933EB1D6F6B37004AEE16 /* Assets.xcassets */,
+				280933ED1D6F6B37004AEE16 /* LaunchScreen.storyboard */,
+				280933F01D6F6B37004AEE16 /* Info.plist */,
+				280933DF1D6F6B37004AEE16 /* Supporting Files */,
+			);
+			path = PocketCalc;
+			sourceTree = "<group>";
+		};
+		280933DF1D6F6B37004AEE16 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				280933E01D6F6B37004AEE16 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		280933F81D6F6B38004AEE16 /* PocketCalcTests */ = {
+			isa = PBXGroup;
+			children = (
+				280933F91D6F6B38004AEE16 /* PocketCalcTests.m */,
+				280933FB1D6F6B38004AEE16 /* Info.plist */,
+			);
+			path = PocketCalcTests;
+			sourceTree = "<group>";
+		};
+		280934031D6F6B38004AEE16 /* PocketCalcUITests */ = {
+			isa = PBXGroup;
+			children = (
+				280934041D6F6B38004AEE16 /* PocketCalcUITests.m */,
+				280934061D6F6B38004AEE16 /* Info.plist */,
+			);
+			path = PocketCalcUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		280933DB1D6F6B37004AEE16 /* PocketCalc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 280934091D6F6B38004AEE16 /* Build configuration list for PBXNativeTarget "PocketCalc" */;
+			buildPhases = (
+				280933D81D6F6B37004AEE16 /* Sources */,
+				280933D91D6F6B37004AEE16 /* Frameworks */,
+				280933DA1D6F6B37004AEE16 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PocketCalc;
+			productName = PocketCalc;
+			productReference = 280933DC1D6F6B37004AEE16 /* PocketCalc.app */;
+			productType = "com.apple.product-type.application";
+		};
+		280933F41D6F6B38004AEE16 /* PocketCalcTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2809340C1D6F6B38004AEE16 /* Build configuration list for PBXNativeTarget "PocketCalcTests" */;
+			buildPhases = (
+				280933F11D6F6B38004AEE16 /* Sources */,
+				280933F21D6F6B38004AEE16 /* Frameworks */,
+				280933F31D6F6B38004AEE16 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				280933F71D6F6B38004AEE16 /* PBXTargetDependency */,
+			);
+			name = PocketCalcTests;
+			productName = PocketCalcTests;
+			productReference = 280933F51D6F6B38004AEE16 /* PocketCalcTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		280933FF1D6F6B38004AEE16 /* PocketCalcUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2809340F1D6F6B38004AEE16 /* Build configuration list for PBXNativeTarget "PocketCalcUITests" */;
+			buildPhases = (
+				280933FC1D6F6B38004AEE16 /* Sources */,
+				280933FD1D6F6B38004AEE16 /* Frameworks */,
+				280933FE1D6F6B38004AEE16 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				280934021D6F6B38004AEE16 /* PBXTargetDependency */,
+			);
+			name = PocketCalcUITests;
+			productName = PocketCalcUITests;
+			productReference = 280934001D6F6B38004AEE16 /* PocketCalcUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		280933D41D6F6B37004AEE16 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Neil Vitale";
+				TargetAttributes = {
+					280933DB1D6F6B37004AEE16 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					280933F41D6F6B38004AEE16 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 280933DB1D6F6B37004AEE16;
+					};
+					280933FF1D6F6B38004AEE16 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 280933DB1D6F6B37004AEE16;
+					};
+				};
+			};
+			buildConfigurationList = 280933D71D6F6B37004AEE16 /* Build configuration list for PBXProject "PocketCalc" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 280933D31D6F6B37004AEE16;
+			productRefGroup = 280933DD1D6F6B37004AEE16 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				280933DB1D6F6B37004AEE16 /* PocketCalc */,
+				280933F41D6F6B38004AEE16 /* PocketCalcTests */,
+				280933FF1D6F6B38004AEE16 /* PocketCalcUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		280933DA1D6F6B37004AEE16 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				280933EF1D6F6B37004AEE16 /* LaunchScreen.storyboard in Resources */,
+				280933EC1D6F6B37004AEE16 /* Assets.xcassets in Resources */,
+				280933EA1D6F6B37004AEE16 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		280933F31D6F6B38004AEE16 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		280933FE1D6F6B38004AEE16 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		280933D81D6F6B37004AEE16 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				280933E71D6F6B37004AEE16 /* ViewController.m in Sources */,
+				280933E41D6F6B37004AEE16 /* AppDelegate.m in Sources */,
+				280933E11D6F6B37004AEE16 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		280933F11D6F6B38004AEE16 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				280933FA1D6F6B38004AEE16 /* PocketCalcTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		280933FC1D6F6B38004AEE16 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				280934051D6F6B38004AEE16 /* PocketCalcUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		280933F71D6F6B38004AEE16 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 280933DB1D6F6B37004AEE16 /* PocketCalc */;
+			targetProxy = 280933F61D6F6B38004AEE16 /* PBXContainerItemProxy */;
+		};
+		280934021D6F6B38004AEE16 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 280933DB1D6F6B37004AEE16 /* PocketCalc */;
+			targetProxy = 280934011D6F6B38004AEE16 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		280933E81D6F6B37004AEE16 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				280933E91D6F6B37004AEE16 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		280933ED1D6F6B37004AEE16 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				280933EE1D6F6B37004AEE16 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		280934071D6F6B38004AEE16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		280934081D6F6B38004AEE16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2809340A1D6F6B38004AEE16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PocketCalc/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.IronYard.PocketCalc;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2809340B1D6F6B38004AEE16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PocketCalc/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.IronYard.PocketCalc;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2809340D1D6F6B38004AEE16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PocketCalcTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.IronYard.PocketCalcTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PocketCalc.app/PocketCalc";
+			};
+			name = Debug;
+		};
+		2809340E1D6F6B38004AEE16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PocketCalcTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.IronYard.PocketCalcTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PocketCalc.app/PocketCalc";
+			};
+			name = Release;
+		};
+		280934101D6F6B38004AEE16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PocketCalcUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.IronYard.PocketCalcUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PocketCalc;
+			};
+			name = Debug;
+		};
+		280934111D6F6B38004AEE16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PocketCalcUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.IronYard.PocketCalcUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PocketCalc;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		280933D71D6F6B37004AEE16 /* Build configuration list for PBXProject "PocketCalc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				280934071D6F6B38004AEE16 /* Debug */,
+				280934081D6F6B38004AEE16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		280934091D6F6B38004AEE16 /* Build configuration list for PBXNativeTarget "PocketCalc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2809340A1D6F6B38004AEE16 /* Debug */,
+				2809340B1D6F6B38004AEE16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2809340C1D6F6B38004AEE16 /* Build configuration list for PBXNativeTarget "PocketCalcTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2809340D1D6F6B38004AEE16 /* Debug */,
+				2809340E1D6F6B38004AEE16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2809340F1D6F6B38004AEE16 /* Build configuration list for PBXNativeTarget "PocketCalcUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				280934101D6F6B38004AEE16 /* Debug */,
+				280934111D6F6B38004AEE16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 280933D41D6F6B37004AEE16 /* Project object */;
+}
