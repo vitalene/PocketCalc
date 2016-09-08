@@ -9,19 +9,12 @@
 
 @property (nonatomic) NSInteger number1;
 @property (nonatomic) NSInteger number2;
+@property (nonatomic) NSString* operation;
 
--(NSInteger)addition:(NSInteger)number1
-                 with:(NSInteger)number2;
--(NSInteger)subtraction:(NSInteger)number1
-                    with:(NSInteger)number2;
--(NSInteger)division:(NSInteger)number1
-                 with:(NSInteger)number2;
--(NSInteger)multiplication:(NSInteger)number1
-                       with:(NSInteger)number2;
--(void)clear:(BOOL)clear;
+-(void)clear;
 
--(instancetype)initWithNumbers:(NSInteger)number1
-                       with:(NSInteger)number2 NS_DESIGNATED_INITIALIZER;
+-(void)setOperation:(NSString *)operation;
+
 
 
 
